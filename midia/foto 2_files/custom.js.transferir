@@ -1,0 +1,4 @@
+jQuery(function($){$('.uk-nav.uk-nav-default').attr('uk-nav','multiple: true').addClass('uk-nav-parent-icon');$('.uk-nav-sub').attr('uk-nav','multiple: true').addClass('uk-nav-parent-icon')});jQuery(document).ready(function($){var link=window.location.pathname;if($(document.body).hasClass('category')){$('.via-menu-categorias .uk-subnav > li > a').each(function(){var href=$(this).attr("href");if(link==href){$(this).parent().addClass('uk-active')}})}
+$('#menuextendido .uk-list > li > a').each(function(){var href=$(this).attr("href");if(href==='/'){if(link==href){$(this).parent().addClass('uk-active')}}else{if((href.indexOf(link)>-1)&&(link!=='/')){$(this).parent().addClass('uk-active')}}})})
+jQuery(document).ready(function($){$('.uk-navbar-nav > .uk-parent > a').each(function(){$(this).removeAttr('href')})
+$('.uk-nav-parent-icon > .uk-parent > a').each(function(){$(this).removeAttr('href').parent('li').removeClass('uk-active')})})
