@@ -3,16 +3,22 @@
 }
 
 body{
-    background-color: black;
+    background-image: linear-gradient(to left ,  #4f5d75 , #2d3142, #bfc0c0);
     color:white;
     margin: auto;
     text-align: center;
 }
+
+section{
+   background-image:linear-gradient(to left ,#bfc0c0 , white);
+    color: black;
+    border-radius: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 10px  10px  rgba(0, 0, 0, 0.275);
+    text-shadow: 1px 1px 1px #2d314229;
+}
 header{
     text-align: center;
-}
-img{
-    text-align: center;
-    width: auto;
-    height: auto;
+    text-shadow: 5px 5px 5px black;
 }
